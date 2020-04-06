@@ -1,0 +1,90 @@
+body{
+    background-color: #ebedcc;
+}
+.Menu{
+    border-right: #0000ff dotted 3px;
+    width: 15%;
+    min-width: 200px;
+    float: left;
+    height: 100%;
+}
+.Menu ul {
+    list-style: none;
+    font-size: 15pt;
+    font-family: Cambria;
+}
+
+.Menu ul li{
+    margin-bottom: 17px;
+}
+.Menu ul li:hover{
+    font-weight: bold;
+    font-size: 20pt;
+}
+.Menu a{
+    text-decoration: none;
+    color: #767676;
+}
+/* Блок с условием задач. */
+.Condition_task{
+    border: yellow outset 3px;
+    background-color: aquamarine;
+    padding: 13px;
+    font-family: "Times New Roman";
+    color: red;
+    font-style: italic;
+    font-size: 17pt;
+}
+.Condition_task p{
+    text-indent: 27px;
+
+}
+/* --------------------------- */
+.Content{
+    display: flex;
+    flex-direction: column;
+    font-family: "Times New Roman";
+    font-size: 16pt;
+}
+.Content table{
+    display: block;
+    margin: auto;
+    font-family:inherit;
+}
+.Content td{
+    padding: 7px;
+    font-size: 15pt;
+}
+.Content input[type=submit]{
+    border: blue 2px solid;
+    border-radius: 15px;
+    font-family: inherit;
+    font-size: inherit;
+}
+#formfibonachi{
+    align-self: center;
+}
+
+#formCipher{
+    display: block;
+}
+
+#formCipher textarea{
+    display: block;
+    height: 50px;
+    width: 40%;
+    margin: 0 30%;
+    font-size: 14pt;
+    font-family: "Times New Roman";
+}
+
+#formCipher input[type=submit]{
+    width: 20%;
+    margin: 0 40%;
+    min-width: 177px;
+}
+#footer{
+    clear: both;
+    border-top: gray solid 2px;
+    text-align: right;
+}
