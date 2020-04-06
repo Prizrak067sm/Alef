@@ -40,6 +40,10 @@ body{
 
 }
 /* --------------------------- */
+.divFeedBack p{
+    margin: 5px 35px 5px 35px;
+    text-indent: 20px;
+}
 .Content{
     display: flex;
     flex-direction: column;
